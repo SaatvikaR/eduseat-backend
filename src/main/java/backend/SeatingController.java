@@ -8,7 +8,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://eduseat-frontend.vercel.app/")
 public class SeatingController {
 
     @Autowired
